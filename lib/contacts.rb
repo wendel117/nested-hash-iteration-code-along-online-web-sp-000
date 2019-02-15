@@ -15,5 +15,5 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts.shift("strawberry")
+  contacts.pop("strawberry")
 end
